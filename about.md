@@ -2,7 +2,19 @@
 
 Am a current PhD Mathematics student working on the pricing of options on volatile assets. We apply stochastic volatility and Levy processes to model the asset prices and apply 'decomposition' techniques to reduce the complexity of the pricing. This increases the model flexibility and reduces the computational time to obtain prices.
 
-In addition, in order to acquire work ready skills, I am currently enrolled in an MSc Financial Engineering course and my current GPA is "Excellent".
+In addition, in order to acquire work ready skills, I am currently enrolled in an MSc Financial Engineering course. This blog will be a doodle pad where I will update my mathematics and computing experiences.
+
+
+My desire is to document my experiences for me to come back to them later.
+
+
+The interesting things I have come across include:
+
+    Econometrics
+    Discrete and continuous time stochastic processes
+    Levy processes
+    Python and C++ programming
+    Financial Mathematics in general
 
 I desire to transition from academia into applied research in the financial markets.
 ![](images/Zororo_pic1.jpg)
