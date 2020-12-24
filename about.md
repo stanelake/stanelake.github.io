@@ -5,6 +5,7 @@ Am a current PhD Mathematics student working on the pricing of options on volati
 In addition, in order to acquire work ready skills, I am currently enrolled in an MSc Financial Engineering course and my current GPA is "Excellent".
 
 I desire to transition from academia into applied research in the financial markets.
+![](images/Zororo_pic1.jpg)
 
 #Some Projects I have Done:
 
