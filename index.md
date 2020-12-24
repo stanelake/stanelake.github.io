@@ -16,13 +16,14 @@ The interesting things I have come across include:
     Discrete and continuous time stochastic processes
     Levy processes
     Python and C++ programming
+    
 
 Let's see how this will go.
 
 
 McQuant [Markdown]. You can include images:
 
-![Image of fast.ai logo](images/logo.png)
+![Image of fast.ai logo](images/Zororo logo.png)
 
 ## This is a title
 
