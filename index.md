@@ -23,7 +23,7 @@ Let's see how this will go.
 
 McQuant [Markdown]. You can include images:
 
-![Image of fast.ai logo](images/Zororo logo.png)
+![](images/Zororo Logo.png)
 
 ## This is a title
 
