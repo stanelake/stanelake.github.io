@@ -63,15 +63,6 @@ plt.plot(S,p)
 plt.xlabel("Asset price")
 plt.ylabel("Pay Off")
 ```
-
-
-
-
-    Text(0,0.5,'Pay Off')
-
-
-
-
 ![](images/output03_9_1.png)
 
 
