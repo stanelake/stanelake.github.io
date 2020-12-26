@@ -72,7 +72,7 @@ plt.ylabel("Pay Off")
 
 
 
-![](images/output_9_1.png)
+![](images/output03_9_1.png)
 
 
 Though the above implementation gets the job done, it is neither parsimonious, fast nor Pythonic. We can implement the vectorisation by using numpy arrays as follows:
@@ -118,10 +118,8 @@ for it in range(1,num_values+1):
 For the sake of comparison, we will compute the analytic option price according to Black and Scholes. We know that, the option orice is given as 
 
 $$\Pi=S_0\Phi(d_1)-e^{-rt}K\Phi(d_2)$$
-where 
+where $d_1&=&\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}$ and $d_2&=&d_1-\sigma\sqrt{T-t}.$
 
-$d_1&=&\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}$ and $d_2&=&d_1-\sigma\sqrt{T-t}.$
-\end{eqnarray}
 
 Each of the above formulas are represented by the Pythin functions below:
 
@@ -157,7 +155,7 @@ plt.show()
 ```
 
 
-![](images/output_15_0.png)
+![](images/output03_15_0.png)
 
 
 # Conclusion
