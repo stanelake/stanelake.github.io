@@ -116,9 +116,8 @@ for it in range(1,num_values+1):
 ### Remark
 
 For the sake of comparison, we will compute the analytic option price according to Black and Scholes. We know that, the option orice is given as 
-
 $$\Pi=S_0\Phi(d_1)-e^{-rt}K\Phi(d_2)$$
-where $d_1&=&\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}$ and $d_2&=&d_1-\sigma\sqrt{T-t}.$
+where $d_1=\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}$ and $d_2=d_1-\sigma\sqrt{T-t}.$
 
 
 Each of the above formulas are represented by the Pythin functions below:
@@ -136,7 +135,7 @@ def d_pm(r,S0,sig,T,t,K,pm):
 def Black_Scholes_Analytic(rate,S_0,sigm,Tt,tt,Kk):
     '''Compute the analytic Black Scholes option price'''
     d1=d_pm(rate,S_0,sigm,Tt,tt,Kk,1)
-    d2=d_pm(rate,S_0,sigm,Tt,tt,Kk,1)
+    d2=d_pm(rate,S_0,sigm,Tt,tt,Kk,-1)
     price = S_0*sts.norm.cdf(d1)-np.exp(-r*(Tt-tt))*Kk*sts.norm.cdf(d2)
     return price
 
