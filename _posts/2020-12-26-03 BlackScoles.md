@@ -121,7 +121,7 @@ $$\Pi=S_0\Phi(d_1)-e^{-rt}K\Phi(d_2)$$
 where 
 
 \begin{eqnarray}
-d_1&=&\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}
+d_1&=&\frac{\ln(S_0/K)+(r+\sigma^2/2)(T-t)}{\sigma\sqrt{T-t}}\\
 d_2&=&d_1-\sigma\sqrt{T-t}.
 \end{eqnarray}
 
