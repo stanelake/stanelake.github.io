@@ -1,4 +1,6 @@
 # Black Scoles Option Pricing
+ 1. TOC
+{:toc}
 
 Having discussed Monte Carlo methods, we now want to p rice plain Vanilla options using Monte Carlo methods. These, however, do have cosed form solutions but we will use that to compare withe Monte Carlo (MC) solution
 
