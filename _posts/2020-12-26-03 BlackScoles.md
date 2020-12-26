@@ -70,7 +70,7 @@ plt.ylabel("Pay Off")
 
 
 
-![png](output_9_1.png)
+![png](images/output_9_1.png)
 
 
 Though the above implementation gets the job done, it is neither parsimonious, fast nor Pythonic. We can implement the vectorisation by using numpy arrays as follows:
@@ -157,7 +157,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](images/output_15_0.png)
 
 
 # Conclusion
