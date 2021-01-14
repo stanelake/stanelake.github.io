@@ -63,7 +63,7 @@ plt.plot(S,p)
 plt.xlabel("Asset price")
 plt.ylabel("Pay Off")
 ```
-![](images/output03_9_1.png)
+![](/images/output03_9_1.png)
 
 
 Though the above implementation gets the job done, it is neither parsimonious, fast nor Pythonic. We can implement the vectorisation by using numpy arrays as follows:
@@ -145,7 +145,7 @@ plt.show()
 ```
 
 
-![](images/output03_15_0.png)
+![](/images/output03_15_0.png)
 
 
 # Conclusion
