@@ -1,6 +1,9 @@
 # House Price Prediction:
 ## Part 1: Data Exploration
 
+1. TOC
+{:toc}
+
 I completed the WQU Machine Learning course 3 months ago and wanted to explore some new challenges. As a result I am exploring this Kaggle competition for leisure and am following a website cited in the references.
 
 ## Objective:
@@ -238,7 +241,7 @@ for i in range(1,len(tallies)):
 
 
     
-![png](06_output_6_0.png)
+![png](/images/06_output_6_0.png)
     
 
 
@@ -268,7 +271,7 @@ plt.show()
 
 
     
-![png](06_output_10_0.png)
+![png](/images/06_output_10_0.png)
     
 
 
@@ -290,7 +293,7 @@ plt.show()
 
 
     
-![png](output_11_1.png)
+![png](/images/06_output_11_1.png)
     
 
 
