@@ -333,7 +333,7 @@ df_test1 = df_test.drop(['Id', 'PoolQC', 'MiscFeature', 'Alley', 'Fence'], axis 
 ### Replacing NaN Values:
 
 - Clearly, not all 'NaN' values need to be discarded.
-- The data columns have vatrous data types and we need to replace the these missing values in a consistent manner 
+- The data columns have various data types and we need to replace the these missing values in a consistent manner 
 - We do this for both the test and training data
 - We will replace 'NaN' values depending on some conditions as follows:
     - If the data in the column is numerical replace NaN with the mean
@@ -364,15 +364,7 @@ replace_nan(df_test1)
 sb.heatmap(df_train1.isnull(),yticklabels=False,cbar=False,cmap='coolwarm')
 ```
 
-
-
-
-    <AxesSubplot:>
-
-
-
-
-    
+   
 ![png](/images/06_output_15_1.png)
     
 
@@ -383,14 +375,6 @@ sb.heatmap(df_test1.isnull(),yticklabels=False,cbar=False,cmap='coolwarm')
 ```
 
 
-
-
-    <AxesSubplot:>
-
-
-
-
-    
 ![png](/images/06_output_16_1.png)
     
 
