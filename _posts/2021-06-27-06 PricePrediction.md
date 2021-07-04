@@ -2,7 +2,7 @@
 ## Part 1: Data Exploration
 
 1. TOC
-{:toc}# House Price Prediction:
+{:toc}
 
 I completed the WQU Machine Learning course 3 months ago and wanted to explore some new challenges. As a result I am exploring this Kaggle competition for leisure and am following a website cited in the references.
 
