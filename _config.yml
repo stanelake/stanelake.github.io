@@ -7,12 +7,12 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Zororo Makumbe
-description: Hello guys...  This blog will be a doodle pad where I will update my mathematics and computing experiences. Currently, I am a PhD Mathematics and Computing candidate at Universitat de Barcelona and an MSc Financial Engineering student at WorldQuant University. My desire is to document my experiences for me to come back to them later.❤
+description: Hello guys...  This blog will be a doodle pad where I will update my data science, mathematics and computing experiences. My desire is to document my experiences for me to come back to them later.❤
 github_username: stanelake
 
 # Email and twitter are optional:
-email:
-twitter_username:
+email: zororomakumbe@gmail.com
+twitter_username: @stanelake
 
 # Set this to true to get LaTeX math equation support
 use_math: true
